@@ -1,6 +1,6 @@
 {
   "name": "abos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Better Object Syntax",
   "main": "abos.js",
   "scripts": {
@@ -11,5 +11,13 @@
     "url": "https://github.com/smidswater/abos.git"
   },
   "author": "Smidswater",
-  "license": "MIT"
+  "license": "MIT",
+  "publisher": "Smidswater",
+  "keywords": [
+    "json",
+    "object",
+    "smart notation",
+    "abos",
+    "smart json"
+  ]
 }
