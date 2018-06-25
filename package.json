@@ -1,0 +1,11 @@
+{
+  "name": "abos",
+  "version": "1.0.0",
+  "description": "A Better Object Syntax",
+  "main": "abos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Smidswater",
+  "license": "MIT"
+}
