@@ -25,8 +25,8 @@ import abos from 'abos';
 abos(/* JSON HERE */);
 ```
 
-## What does it fix?
-With this module your json becomes self-conscious so u can use @top (Root of JSON), @parent (Parent of current scope), @this (Current scope)
+## What does it solve?
+With this module your json becomes self-conscious so you can use @top (Root of JSON), @parent (Parent of current scope) or @this (Current scope).
 
 ### Demo
 ```json
