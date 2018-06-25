@@ -1,5 +1,5 @@
 # ABOS
-A better object notation
+A better object syntax
 
 ## Installation
 ### NPM
