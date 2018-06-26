@@ -18,6 +18,6 @@ files.forEach(function(file) {
     console.log(file);
     console.log(_abos);
   } else {
-    fs.writeFileSync(file, JSON.stringify(_abos, null, 4));
+    fs.writeFileSync(file, JSON.stringify(_abos, null, 2));
   }
 });
