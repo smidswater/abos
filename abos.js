@@ -1,4 +1,17 @@
-module.exports = function (abon) {
+const fs = require('fs');
+module.exports = function (abos) {
+  if (typeof abos === 'string' && fs.existsSync(abos)) {
+    abos = fs.readFileSync(abos).toString('utf8');
+  }
+  if (typeof abos === 'string') {
+    try {
+      abos = JSON.parse(abos);
+    }
+    catch(e) {
+      console.log('Invalid JSON', e);
+      return;
+    }
+  }
   let recursive = function(data, parents = []) {
     for (let key in data) {
       let row = data[key];
@@ -64,6 +77,6 @@ module.exports = function (abon) {
     }
     return data;
   }
-  var data = recursive(abon, [abon]);
+  var data = recursive(abos, [abos]);
   return data;
 }
