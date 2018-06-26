@@ -13,17 +13,33 @@ yarn add abos
 ```
 
 
+#### Globally
+```sh
+npm install abos -g
+```
+
+```sh
+yarn global add abos
+```
+
+##### Run
+```sh
+abos file.abos [--dry-run]
+```
+
+
 ## Require
 ```js
 const abos = require('abos');
-abos(/* JSON HERE */);
+abos(/* JSON HERE */); //eg. file.json or "{stringified json}" or json object
 ```
 
 ## Import
 ```js
 import abos from 'abos';
-abos(/* JSON HERE */);
+abos(/* JSON HERE */); //eg. file.json or "{stringified json}" or json object
 ```
+
 
 ## What does it solve?
 With this module your json becomes self-conscious so you can use @top (Root of JSON), @parent (Parent of current scope) or @this (Current scope).
